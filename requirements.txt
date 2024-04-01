@@ -11,7 +11,7 @@ beautifulsoup4
 icetk
 cpm_kernels
 faiss-cpu
-gradio==3.28.3
+gradio==4.22.0
 fastapi~=0.95.0
 uvicorn~=0.21.1
 pypinyin~=0.48.0
@@ -33,3 +33,4 @@ numpy~=1.23.5
 tqdm~=4.65.0
 requests~=2.28.2
 tenacity~=8.2.2
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
